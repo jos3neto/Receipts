@@ -1,14 +1,13 @@
 //
-//  ViewController.h
+//  AddViewController.h
 //  Receipts
 //
-//  Created by Jose on 26/2/18.
+//  Created by Jose on 28/2/18.
 //  Copyright © 2018 appcat.com. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface AddViewController : UIViewController
 @property NSManagedObjectContext* context;
 @end
-

@@ -14,6 +14,7 @@
 		82980BAE20448C210095FF11 /* Receipts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 82980BAC20448C210095FF11 /* Receipts.xcdatamodeld */; };
 		82980BB020448C210095FF11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82980BAF20448C210095FF11 /* Assets.xcassets */; };
 		82980BB320448C210095FF11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82980BB120448C210095FF11 /* LaunchScreen.storyboard */; };
+		82980BBC20473CC40095FF11 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82980BBB20473CC40095FF11 /* AddViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		82980BAF20448C210095FF11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82980BB220448C210095FF11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82980BB420448C210095FF11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82980BBA20473CC40095FF11 /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		82980BBB20473CC40095FF11 /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,15 +63,14 @@
 		82980B9F20448C200095FF11 /* Receipts */ = {
 			isa = PBXGroup;
 			children = (
+				82980BA920448C210095FF11 /* Main.storyboard */,
+				82980BAC20448C210095FF11 /* Receipts.xcdatamodeld */,
 				82980BA320448C200095FF11 /* AppDelegate.h */,
 				82980BA420448C210095FF11 /* AppDelegate.m */,
 				82980BA620448C210095FF11 /* ViewController.h */,
 				82980BA720448C210095FF11 /* ViewController.m */,
-				82980BA920448C210095FF11 /* Main.storyboard */,
-				82980BAF20448C210095FF11 /* Assets.xcassets */,
-				82980BB120448C210095FF11 /* LaunchScreen.storyboard */,
-				82980BB420448C210095FF11 /* Info.plist */,
-				82980BAC20448C210095FF11 /* Receipts.xcdatamodeld */,
+				82980BBA20473CC40095FF11 /* AddViewController.h */,
+				82980BBB20473CC40095FF11 /* AddViewController.m */,
 				82980BA020448C200095FF11 /* Supporting Files */,
 			);
 			path = Receipts;
@@ -78,6 +80,9 @@
 			isa = PBXGroup;
 			children = (
 				82980BA120448C200095FF11 /* main.m */,
+				82980BAF20448C210095FF11 /* Assets.xcassets */,
+				82980BB420448C210095FF11 /* Info.plist */,
+				82980BB120448C210095FF11 /* LaunchScreen.storyboard */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -153,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82980BBC20473CC40095FF11 /* AddViewController.m in Sources */,
 				82980BAE20448C210095FF11 /* Receipts.xcdatamodeld in Sources */,
 				82980BA820448C210095FF11 /* ViewController.m in Sources */,
 				82980BA520448C210095FF11 /* AppDelegate.m in Sources */,
@@ -313,6 +319,7 @@
 				82980BB920448C210095FF11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
